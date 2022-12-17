@@ -2,7 +2,7 @@
 
 <h3 align="center">WeatherVane - Whisper GPT3 Codex & DALL-E 2 Open AI Hackathon</h3>
 <br>
-    This repo contains all the work for WeatherVanes team contribution in OpenAI's Whisper Hackathon
+    This repo contains all the work for WeatherVanes team contribution in OpenAI's Whisper GPT3 Codex & DALL-E 2 Hackathon
 <br />
 <br> <br />
 
