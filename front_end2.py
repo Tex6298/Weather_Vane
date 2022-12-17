@@ -1,7 +1,6 @@
 import altair as alt
 import pandas as pd
 import streamlit as st
-from vega_datasets import data
 import openai
 from quick_start import *
 from weatherVane import WeatherVane
