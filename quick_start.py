@@ -39,7 +39,7 @@ if not creds or not creds.valid:
     with open('token.json', 'w') as token:
         token.write(creds.to_json())
 
-OPENAI_API_KEY = ""
+OPENAI_API_KEY = "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"
 
 openai.api_key = OPENAI_API_KEY
 
@@ -51,7 +51,7 @@ mubert_tags = np.array(mubert_tags_string.split(','))
 mubert_tags_embeddings = minilm.encode(mubert_tags)
 
 
-email = "danielpatrickhug@gmail.com" #@param {type:"string"}
+email = "martyn.ben.ami@gmail.com" #@param {type:"string"}
 
 
 r = httpx.post('https://api-b2b.mubert.com/v2/GetServiceAccess',
@@ -201,7 +201,7 @@ def create_presentation(title):
         print("presentation not created")
         return error
 
-def create_slide(presentation_id, page_id):
+def create_slide(presentation_id, page_id, n):
     """
     Creates the Presentation the user has access to.
     Load pre-authorized user credentials from the environment.
@@ -218,7 +218,7 @@ def create_slide(presentation_id, page_id):
             {
                 'createSlide': {
                     'objectId': page_id,
-                    'insertionIndex': '1',
+                    'insertionIndex': n,
                     'slideLayoutReference': {
                         'predefinedLayout': 'TITLE_AND_TWO_COLUMNS'
                     }
@@ -341,9 +341,13 @@ def create_video(query, presentation_id, page_id):
 
 
 
-presentation = create_presentation("test6aa9")
-pres_id = presentation.get('presentationId')
-create_slide(pres_id, "page1")
-create_image("Dogs playing poker with a wolf", pres_id, "page1")
+# presentation = create_presentation("test6ab1")
+
+
+# pres_id = presentation.get('presentationId')
+# create_slide(pres_id, n)
+# create_image(summary, pres_id, n)
+
+
 #create_video("Dogs playing poker with a wolf", pres_id, "page1") Does not work
 #trackurl = generate_track_by_prompt("Dogs playing poker with a wolf", duration=30)
