@@ -3,7 +3,6 @@ import pandas as pd
 import streamlit as st
 import openai
 from quick_start import *
-from weatherVane import WeatherVane
 import ast
 
 
