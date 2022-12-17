@@ -1,7 +1,7 @@
 import openai
 import requests
 
-openai_api = "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"
+openai_api = "API"
 
 openai.api_key = openai_api
 
