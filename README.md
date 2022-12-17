@@ -1,9 +1,9 @@
 # Weather_Vane
 
 <h3 align="center">WeatherVane - Whisper GPT3 Codex & DALL-E 2 Open AI Hackathon</h3>
-<br>
+<br><br>
     This repo contains all the work for WeatherVanes team contribution in OpenAI's Whisper Hackathon
-<br />
+<br /><br />
 
 
 <p align="center">
@@ -19,8 +19,9 @@ WeatherVane (v1.0.0)
 
 ***Problem***
 Regardless of the context time is always precious.
-Presenting ideas is always necessary from starting small projects to guiding important decisions but making good presentations takes time.
 Making an impact is done by creating a sensory experiences.
+
+Presenting ideas is always necessary from starting small projects to guiding important decisions but making good presentations takes time.
 
 ***Solution***
 Using OpenAI GPT-3, DALL-E 2 and Murbet, we are created an automated presentation platform that will make your desired presentation with just the data you wish to present and some key words.
