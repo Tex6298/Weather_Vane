@@ -133,7 +133,7 @@ if input != "":
     
     # Show the summary
     st.header("📖 presentations Summary")
-    st.write("This is a summary of what we think text is about:")
+    st.write("Check your Google drive:")
     n= 0
     summary_list = eval(summary.split('slides = ')[1])
     
