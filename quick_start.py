@@ -39,9 +39,7 @@ if not creds or not creds.valid:
     with open('token.json', 'w') as token:
         token.write(creds.to_json())
 
-OPENAI_API_KEY = "API"
-
-openai.api_key = OPENAI_API_KEY
+openai.api_key = "openai_api"
 
 minilm = SentenceTransformer('all-MiniLM-L6-v2')
 
