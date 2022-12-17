@@ -1,9 +1,10 @@
 # Weather_Vane
 
 <h3 align="center">WeatherVane - Whisper GPT3 Codex & DALL-E 2 Open AI Hackathon</h3>
-<br><br>
+<br>
     This repo contains all the work for WeatherVanes team contribution in OpenAI's Whisper Hackathon
-<br /><br />
+<br />
+<br> <br />
 
 
 <p align="center">
