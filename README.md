@@ -42,7 +42,7 @@ sequenceDiagram
     WeatherVane->>WeatherVane: Generate Slides and preview using google Slide API
     WeatherVane->>FrontEnd: Display preview
     FrontEnd->>WeatherVane: Submit confirmaiton
-    WeatherVane->>FrontEnd: Send everything to DALL-E for interpolation
+    WeatherVane->>WeatherVane: Send everything to DALL-E for interpolation
     WeatherVane->>FrontEnd: Your presentation is underway
     WeatherVane->>Database API: Send data to database
     Database API->>User: email user that download is ready
