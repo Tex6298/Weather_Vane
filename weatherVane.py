@@ -1,9 +1,7 @@
 import openai
 import requests
 
-openai_api = "API"
-
-openai.api_key = openai_api
+openai.api_key = "openai_api"
 
 
 # Template to parse input text and prepare for presentation
