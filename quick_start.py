@@ -39,7 +39,7 @@ if not creds or not creds.valid:
     with open('token.json', 'w') as token:
         token.write(creds.to_json())
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "API"
 
 openai.api_key = OPENAI_API_KEY
 
