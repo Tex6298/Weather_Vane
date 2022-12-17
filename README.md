@@ -26,12 +26,13 @@ Making an impact is done by creating a sensory experiences.
 Using OpenAI GPT-3, DALL-E 2 and Murbet, we are created an automated presentation platform that will make your desired presentation with just the data you wish to present and some key words.
 
 ***How it works***
-This is a high-level overview of how the project works. For more details, please refer to the [Team Blue Miro Board](https://miro.com/app/board/uXjVPNAvrXg=/)
+This is a high-level overview of how the project works. For more details, please refer to the [WeatherVane google collab]([https://miro.com/app/board/uXjVPNAvrXg=/](https://colab.research.google.com/drive/1BoNuDiHlC3eI82OoRqewlP6D6bdQJIvH?usp=sharing))
 
 ```mermaid
 sequenceDiagram
     participant User
     participant FrontEnd
+    participant WeatherVane
     participant Database API
     User->>FrontEnd: Enter Text
     FrontEnd->>FrontEnd: User enters presentation text
